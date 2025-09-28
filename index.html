@@ -30,12 +30,16 @@
 			  <img src="images/logop.png" alt="" height="40">
 			</a>				
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span> Meniu
 	      </button>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item active"><a href="index.html" class="nav-link pl-0">Acasă</a></li>
-	            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item"><a href="courses.html" class="nav-link">Cursuri</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">Despre noi</a></li>
+	        	<li class="nav-item"><a href="testimoniale.html" class="nav-link">Testimoniale</a></li>
+	        	<li class="nav-item"><a href="gallery.html" class="nav-link">Galerie</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -54,7 +58,7 @@
             		<span class="flaticon-teacher"></span>
               </div>
               <div class="media-body p-2 mt-3">
-                <h3 class="heading">Profesori certificați</h3>
+                <h3 class="heading">Profesori cu certificări internaționale</h3>
                 <p>Profesori foarte bine pregătiți și dedicați, certificați Cambridge - CELTA</p>
               </div>
             </div>      
@@ -95,19 +99,31 @@
         </div>
 			</div>
 		</section>
-		
+
+<iframe id="cookie-iframe" src="cookie.html" style="border:none; width:100%; height:100%; position:fixed; bottom:0; left:0; z-index:10000;"></iframe>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (localStorage.getItem('cookieConsentGiven')) {
+      var iframe = document.querySelector('iframe[src="cookie.html"]');
+      if (iframe) iframe.remove(); // or iframe.style.display = 'none';
+    }
+  });
+</script>
 		<section class="ftco-section ftco-no-pt ftc-no-pb">
 			<div class="container">
 				<div class="row">
 <div class="col-md-5 order-md-last wrap-about py-5 wrap-about bg-light d-flex justify-content-center align-items-center">
   <div class="text px-4 ftco-animate">
+  	    <img src="images/cam.jpg" alt="Certificare Cambridge English" style="max-width:100%; height:auto;">
+
     <img src="images/cert.jpg" alt="Certificare Cambridge English" style="max-width:100%; height:auto;">
+
   </div>
 </div>
 
 					<div class="col-md-7 wrap-about py-5 pr-md-4 ftco-animate">
           	<h2 class="mb-4">Ce Oferim</h2>
-						<p>La ICA, le oferim cursanților un mediu modern și prietenos, unde comunicarea și progresul sunt pe primul loc. Scopul nostru este să îi ajutăm pe elevi să dobândească încredere în vorbirea și înțelegerea limbilor străine și nu numai.</p>
+						<p>Căutați un centru educațional care să ofere cursuri  inovatoare și captivante pentru copii? ICA, vă oferă exact aceste servicii! Suntem pasionați de educație și am creat un mediu propice pentru dezvoltarea gândirii critice și a abilităților creative ale copiilor. Vă așteptăm cu brațele deschise să experimentați aventura învățării la ICA! Un  amestec exploziv de învățare și distracție!</p>
 						<div class="row mt-5">
 							<div class="col-lg-6">
 								<div class="services-2 d-flex">
@@ -158,8 +174,8 @@
 								<div class="services-2 d-flex">
 									<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-kids"></span></div>
 									<div class="text">
-										<h3>Activități educative și culturale</h3>
-										<p>Pe lângă cursuri, oferim activități care dezvoltă creativitatea, lucrul în echipă și deschiderea către alte culturi.</p>
+										<h3>Activități educative</h3>
+										<p>Scopul nostru este să îi ajutăm pe elevi să dobândească încredere în vorbirea și înțelegerea limbilor străine și nu numai.</p>
 									</div>
 								</div>
 							</div>
@@ -195,7 +211,11 @@
               <h2 class="ftco-heading-2">Comenzi rapide</h2>
               <ul class="list-unstyled">
                 <li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Acasă</a></li>
-                <li><a href="contact.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Cursuri</a></li>
+                <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Despre noi</a></li>
+                <li><a href="gallery.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Galerie</a></li>
+                <li><a href="contact.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="politica.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Politica de confidențialitate</a></li>
               </ul>
             </div>
           </div>
@@ -208,6 +228,14 @@
                 <li class="ftco-animate"><a href="https://wa.me/40734358562"><span class="icon-whatsapp"></span></a></li>
               </ul>
             </div>
+			<div>
+    <a style="margin: 0;line-height: 1;padding: 0;text-decoration: none;" href="https://anpc.ro/ce-este-sal/" target="_blank" rel="nofollow">
+        <img style="display:inline-block;border:0;width:250px;margin:5px;" src="https://etamade-com.github.io/anpc-sal-sol-logo/anpc-sal.svg" alt="Solutionarea Alternativa a Litigiilor">
+    </a>
+    <a style="margin: 0;line-height: 1;padding: 0;text-decoration: none;" href="https://ec.europa.eu/consumers/odr" target="_blank" rel="nofollow">
+        <img style="display:inline-block;border:0;width:250px;margin:5px;" src="https://etamade-com.github.io/anpc-sal-sol-logo/anpc-sol.svg" alt="Solutionarea Online a Litigiilor">
+    </a>
+</div>
           </div>
         </div>
         <div class="row">

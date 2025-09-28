@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Centrul de limbi străine ICA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco_navbar ftco-navbar-light" id="ftco-navbar">
+	    <div class="container d-flex align-items-center">
+			<a class="navbar-brand" href="index.html">
+			  <img src="images/logop.png" alt="" height="40">
+			</a>				
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Meniu
+	      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	        	<li class="nav-item"><a href="index.html" class="nav-link pl-0">Acasă</a></li>
+	        	<li class="nav-item"><a href="courses.html" class="nav-link">Cursuri</a></li>
+	        	<li class="nav-item"><a href="about.html" class="nav-link">Despre noi</a></li>
+	        	<li class="nav-item"><a href="testimoniale.html" class="nav-link">Testimoniale</a></li>
+	        	<li class="nav-item"><a href="gallery.html" class="nav-link">Galerie</a></li>
+	          <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+    
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+          <div class="col-md-9 ftco-animate text-center">
+            <h1 class="mb-2 bread">Contact</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.html">ACASĂ <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact <i class="ion-ios-arrow-forward"></i></span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section contact-section">
+      <div class="container">
+        <div class="row d-flex mb-5 contact-info">
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Adresa</h3>
+	            <p>Ilfov, Voluntari, Strada Ecaterina Teodoroiu 64</p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Număr de telefon</h3>
+	            <p><a href="tel://+40734358562">+40 734 358 562</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Adresă de e-mail</h3>
+	            <p><a href="mailto:office.icacentre@gmail.com">office.icacentre@gmail.com</a></p>
+	          </div>
+          </div>
+          <div class="col-md-3 d-flex">
+          	<div class="bg-light align-self-stretch box p-4 text-center">
+          		<h3 class="mb-4">Website</h3>
+	            <p><a href="www.icacentre.ro">www.icacentre.ro</a></p>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
+			<div class="container">
+				<div class="row d-flex align-items-stretch no-gutters">
+					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
+					<h3>Formular de contact / înscriere</h3>
+			<form method="post" id="contactform" action="send.php">
+              <div class="form-group">
+                <input type="text" name="name" id="name" class="form-control" placeholder="Nume și prenume">
+              </div>
+              <div class="form-group">
+                <input type="text" name="email" id="email" class="form-control" placeholder="Adresă de e-mail">
+              </div>
+              <div class="form-group">
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Subiect: Contact / Înscriere">
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Mesaj"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Trimite" class="btn btn-primary py-3 px-5">
+              </div>
+            </form>
+<script>
+document.getElementById("contactform").addEventListener("submit", function(e) {
+  let name = document.getElementById("name").value.trim();
+  let subject = document.getElementById("subject").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let message = document.getElementById("message").value.trim();
+  let valid = true;
+  let errorMsg = "";
+
+  if (name === "") {
+    errorMsg += "Nume invalid\n";
+    valid = false;
+  }
+  if (subject === "") {
+    errorMsg += "Subiect invalid\n";
+    valid = false;
+  }
+  if (message === "") {
+    errorMsg += "Mesaj invalid\n";
+    valid = false;
+  }
+  if (email === "" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    errorMsg += "Email invalid\n";
+    valid = false;
+  }
+
+  if (!valid) {
+    alert(errorMsg);
+    e.preventDefault();
+  }
+});
+</script>
+
+					</div>
+<div class="col-md-6 d-flex align-items-stretch">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2846.2549282894734!2d26.180021999999994!3d44.489443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1f9726212d755%3A0x3f64a3b8c62a539e!2sEducational%20ICA%20-%20limbi%20straine!5e0!3m2!1sro!2sro!4v1758988577217!5m2!1sro!2sro" 
+    width="100%" 
+    height="100%" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+				</div>
+			</div>
+		</section>
+
+		
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2">Date de contact</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Ilfov, Voluntari, Strada Ecaterina Teodoroiu 64</span></li>
+	                <li><a href="tel://+40734358562"><span class="icon icon-phone"></span><span class="text">+40 734 358 562</span></a></li>
+	                <li><a href="mailto:office.icacentre@gmail.com"><span class="icon icon-envelope"></span><span class="text">office.icacentre@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="ftco-footer-widget mb-5 ml-md-4">
+              <h2 class="ftco-heading-2">Comenzi rapide</h2>
+              <ul class="list-unstyled">
+                <li><a href="index.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Acasă</a></li>
+                <li><a href="courses.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Cursuri</a></li>
+                <li><a href="about.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Despre noi</a></li>
+                <li><a href="gallery.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Galerie</a></li>
+                <li><a href="contact.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                <li><a href="politica.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Politica de confidențialitate</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+
+            <div class="ftco-footer-widget mb-5">
+            	<h2 class="ftco-heading-2 mb-0">Rețele sociale</h2>
+            	<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <li class="ftco-animate"><a href="https://www.facebook.com/p/Centrul-de-limbi-straine-ICA-100063781456647/"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://wa.me/40734358562"><span class="icon-whatsapp"></span></a></li>
+              </ul>
+            </div>
+						<div>
+    <a style="margin: 0;line-height: 1;padding: 0;text-decoration: none;" href="https://anpc.ro/ce-este-sal/" target="_blank" rel="nofollow">
+        <img style="display:inline-block;border:0;width:250px;margin:5px;" src="https://etamade-com.github.io/anpc-sal-sol-logo/anpc-sal.svg" alt="Solutionarea Alternativa a Litigiilor">
+    </a>
+    <a style="margin: 0;line-height: 1;padding: 0;text-decoration: none;" href="https://ec.europa.eu/consumers/odr" target="_blank" rel="nofollow">
+        <img style="display:inline-block;border:0;width:250px;margin:5px;" src="https://etamade-com.github.io/anpc-sal-sol-logo/anpc-sol.svg" alt="Solutionarea Online a Litigiilor">
+    </a>
+</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Toate drepturile rezervate de Centrul de limbi străine ICA</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+		
+<iframe id="cookie-iframe" src="cookie.html" style="border:none; width:100%; height:100%; position:fixed; bottom:0; left:0; z-index:10000;"></iframe>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    if (localStorage.getItem('cookieConsentGiven')) {
+      var iframe = document.querySelector('iframe[src="cookie.html"]');
+      if (iframe) iframe.remove(); // or iframe.style.display = 'none';
+    }
+  });
+</script>
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
